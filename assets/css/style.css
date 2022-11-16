@@ -1,0 +1,30 @@
+.cabecera{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.menu-lista{
+    display: flex; 
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color: #808080;
+    text-decoration: none;
+    margin-right: 2.5rem;
+}
+
+.menu-item:first-child{
+    color: #333333;
+    font-weight: bolder;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+}
